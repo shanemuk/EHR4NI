@@ -295,7 +295,7 @@ angular.module('rippleDemonstrator')
         $scope.title = 'PHR POC'
       }
       else {
-        $scope.title = 'IDCR POC'
+        $scope.title = 'EHR4NI'
       }
 
       $scope.footer = 'Integrated Digital Care Record';
