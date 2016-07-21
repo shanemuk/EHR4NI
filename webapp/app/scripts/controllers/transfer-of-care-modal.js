@@ -48,7 +48,7 @@ angular.module('rippleDemonstrator')
 
         $scope.patient = patient;
         $scope.transferOfCareComposition = transferOfCareCompositions;
-        $scope.siteFrom = 'WORCESTERSHIRE HEALTH AND CARE NHS TRUST';
+        $scope.siteFrom = 'Belfast Trust';
 
         $scope.selectedItems = {
           allergies: [],
@@ -188,7 +188,7 @@ angular.module('rippleDemonstrator')
             clinicalSummary: $scope.transferDetail.clinicalSummary,
             dateOfTransfer: todayDate,
             reasonForContact: $scope.transferDetail.reasonForContact,
-            siteFrom: 'WORCESTERSHIRE HEALTH AND CARE NHS TRUST',
+            siteFrom: 'Belfast Trust',
             siteTo: $scope.details.siteTo,
             source: 'openehr',
             sourceId: ''
