@@ -292,7 +292,7 @@ angular.module('rippleDemonstrator')
       };
 
       if ($scope.currentUser.role === 'PHR') {
-        $scope.title = 'PHR POC'
+        $scope.title = 'EHR4NI PHR'
       }
       else {
         $scope.title = 'EHR4NI'
